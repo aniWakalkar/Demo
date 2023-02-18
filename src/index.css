@@ -1,0 +1,121 @@
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+*{
+  padding: 0px;
+  margin: 0px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  /* border: 1px solid black; */
+}
+
+body {
+  width: 100%;
+  /* margin: 0; */
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
+.Navbar{
+  width: 100%;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+nav h1{
+  font-size: 3rem;
+  background: rgb(73, 71, 79);
+  padding: 3px;
+}
+.container{
+  width: 100%;
+  height: 80vh;
+  padding: 10px;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(229 220 220 / 27%);  
+}
+
+.form{
+  width: 50%;
+  height: 60vh;
+  overflow-y:visible;
+  padding: 10px;       
+  background-color: white; 
+  border-radius :8px;
+  overflow-y: scroll;
+}
+.form .fields{
+  width: 100%;
+  height: 70px;
+  padding: 12px;
+  display: flex;
+}
+.form .fields:nth-child(1){
+  width: 100%;
+  margin-top: 40px;
+}
+.form .fields .field{
+  width: 100%;
+  margin-right: 20px;
+}
+.form .fields .field input{
+  width: 100%;
+  padding: 3px;
+  font-size: 15px;
+  border: 0px 0px 0px 0px;
+  outline: none;
+}
+
+.form .fields .field button{
+  margin-top: 5px;
+  padding: 5px;
+  background: white;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+.itemsContainer{
+  margin-top: 36px;
+}
+
+.itemContainer{
+  border-bottom: 1px solid;
+  margin-top: 5px;
+  padding: 8px 3px;
+  display: flex;
+  justify-content: space-between;
+}
+.itemContainer p{
+  word-wrap: break-word;
+  padding: 2px;
+}
+.footer{
+  width: 100%;
+  height: 15vh;
+  padding: 30px;
+  background: #1c3a60;
+  font-size: 1.2rem;
+}
+.footer i{
+  color: white;
+  overflow: hidden;
+}
+.copy p{
+  text-align: right;
+  font-size: 1.2rem;
+  background-color: rgb(43, 67, 133);
+  color: black;
+  padding-right: 25px;
+  overflow: hidden;
+}
